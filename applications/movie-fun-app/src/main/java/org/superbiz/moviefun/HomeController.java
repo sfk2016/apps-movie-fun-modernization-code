@@ -15,9 +15,9 @@ import java.util.Map;
 public class HomeController {
 
     private final MoviesBean moviesBean;
-    private final AlbumsBean albumsBean;
+    private final org.superbiz.moviefun.albums.AlbumsBean albumsBean;
     private final MovieFixtures movieFixtures;
-    private final AlbumFixtures albumFixtures;
+    private final org.superbiz.moviefun.albums.AlbumFixtures albumFixtures;
 
     public HomeController(MoviesBean moviesBean, AlbumsBean albumsBean, MovieFixtures movieFixtures, AlbumFixtures albumFixtures) {
         this.moviesBean = moviesBean;

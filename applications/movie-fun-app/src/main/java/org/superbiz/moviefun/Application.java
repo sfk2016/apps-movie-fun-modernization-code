@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.superbiz.moviefun.blobstore.BlobStore;
 import org.superbiz.moviefun.blobstore.S3Store;
 
+
 @SpringBootApplication
 public class Application {
 
@@ -19,7 +20,7 @@ public class Application {
     }
 
     @Bean
-    public ServletRegistrationBean actionServletRegistration(ActionServlet actionServlet) {
+    public ServletRegistrationBean actionServletRegistration(org.superbiz.moviefun.movies.MoviesServlet actionServlet) {
         return new ServletRegistrationBean(actionServlet, "/moviefun/*");
     }
 
