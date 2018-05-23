@@ -1,4 +1,4 @@
-package org.superbiz.moviefun;
+package org.superbiz.moviefun.albums;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,7 +10,9 @@ public class ServiceCredentials {
 
     private final String vcapServices;
 
-    public ServiceCredentials(String vcapServices) {      this.vcapServices = vcapServices;   }
+    public ServiceCredentials(String vcapServices) {
+        this.vcapServices = vcapServices;
+    }
 
     public String getCredential(String serviceName, String serviceType, String credentialKey) {
         ObjectMapper objectMapper = new ObjectMapper();

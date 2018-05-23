@@ -1,0 +1,27 @@
+Starting a Gradle Daemon, 3 busy Daemons could not be reused, use --status for details
+:components:blobstore:compileJava UP-TO-DATE
+:components:blobstore:processResources UP-TO-DATE
+:components:blobstore:classes UP-TO-DATE
+:components:blobstore:jar UP-TO-DATE
+:components:movie-fun-api:compileJava
+:components:movie-fun-api:processResources UP-TO-DATE
+:components:movie-fun-api:classes
+:components:movie-fun-api:jar UP-TO-DATE
+:applications:movie-fun-app:compileJava UP-TO-DATE
+:applications:movie-fun-app:processResources UP-TO-DATE
+:applications:movie-fun-app:classes UP-TO-DATE
+:applications:movie-fun-app:findMainClass
+:applications:movie-fun-app:bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2018-05-22 18:08:42.499  INFO 4205 --- [           main] org.superbiz.moviefun.Application        : Starting Application on greenday with PID 4205 (/home/pal_user/workspace/apps-movie-fun-modernization-code/applications/movie-fun-app/build/classes/main started by pal_user in /home/pal_user/workspace/apps-movie-fun-modernization-code/applications/movie-fun-app)
+2018-05-22 18:08:42.505 DEBUG 4205 --- [           main] org.superbiz.moviefun.Application        : Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-05-22 18:08:42.505  INFO 4205 --- [           main] org.superbiz.moviefun.Application        : No active profile set, falling back to default profiles: default
+2018-05-22 18:08:45.417  INFO 4205 --- [           main] org.superbiz.moviefun.Application        : Started Application in 3.322 seconds (JVM running for 3.61)
